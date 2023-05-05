@@ -1,0 +1,36 @@
+{
+  "name": "li_press",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "@snippetors/vuepress-plugin-code-copy": "^1.2.3",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-sakura": "^1.2.1",
+    "vuepress-theme-reco": "1.6.16"
+  },
+  "description": "my liBlog",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.16",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
+    "leancloud-storage": "^4.14.0",
+    "sakana": "^1.0.8",
+    "valine": "^1.5.1",
+    "vue-canvas-effect": "0.0.12",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-ribbon-animation": "^1.1.3"
+  }
+}
