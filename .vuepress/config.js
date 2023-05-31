@@ -785,7 +785,7 @@ module.exports = {
     [
       "@vuepress-reco/vuepress-plugin-bulletin-popover",
       {
-        title: "更新时间--2023-05-05",
+        title: "更新时间--2023-05-31",
         body: [
           // {
           //   type: "text",
@@ -794,7 +794,7 @@ module.exports = {
           // },
           {
             type: "text",
-            content: "markdown：AntVG6 关系图",
+            content: "markdown：前端的文件预览，hsy-design-vue组件库",
             style: "text-align: center;",
           },
         ],
