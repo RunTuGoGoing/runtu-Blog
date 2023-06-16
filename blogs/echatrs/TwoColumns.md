@@ -1,6 +1,6 @@
 ---
 title: echarts 左右两列图例写法
-date: 2023-03-01
+date: 2023-06-18
 categories: 
  - echarts
 tags: 

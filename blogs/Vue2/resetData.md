@@ -1,6 +1,6 @@
 ---
 title: 重置data数据
-date: 2023-02-22
+date: 2023-06-16
 categories: 
  - Vue2
 tags: 

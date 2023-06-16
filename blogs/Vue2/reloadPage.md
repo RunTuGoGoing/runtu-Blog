@@ -1,6 +1,6 @@
 ---
 title: vue刷新当前页面
-date: 2023-03-01
+date: 2023-06-16
 categories: 
  - Vue2
  - Vue3

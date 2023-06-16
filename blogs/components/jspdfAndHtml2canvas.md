@@ -1,6 +1,6 @@
 ---
 title: 纯前端jspdf+html2canvas导出pdf
-date: 2023-04-24
+date: 2023-05-24
 categories: 
  - Vue2
  - Vue3

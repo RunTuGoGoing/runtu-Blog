@@ -1,6 +1,6 @@
 ---
 title: echarts tooltip自动轮播
-date: 2023-02-23
+date: 2023-05-23
 categories: 
  - echarts
 tags: 
