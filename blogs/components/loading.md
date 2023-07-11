@@ -3,12 +3,8 @@ title: 好看实用的loading
 date: 2023-06-23
 categories: 
  - components
- - Vue2
- - Vue3
 tags: 
  - components
- - Vue2
- - Vue3
 sidebar: 'auto'
 comment: false
 ---

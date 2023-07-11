@@ -2,12 +2,8 @@
 title: hsy-design-vue
 date: 2023-05-31
 categories:
-  - Vue2
-  - Vue3
   - components
 tags:
-  - Vue2
-  - Vue3
   - components
 sidebar: "auto"
 comment: false

@@ -3,12 +3,8 @@ title: 前端下载图片
 date: 2023-06-02
 categories:
   - utils
-  - Vue2
-  - Vue3
 tags:
   - utils
-  - Vue2
-  - Vue3
 sidebar: "auto"
 comment: false
 ---

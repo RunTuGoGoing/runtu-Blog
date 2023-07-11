@@ -3,10 +3,8 @@ title: 前端的文件预览
 date: 2023-06-16
 categories:
   - Vue2
-  - Vue3
 tags:
   - Vue2
-  - Vue3
 sidebar: "auto"
 comment: false
 ---

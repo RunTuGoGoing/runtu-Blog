@@ -2,12 +2,8 @@
 title: 纯前端jspdf+html2canvas导出pdf
 date: 2023-05-24
 categories: 
- - Vue2
- - Vue3
  - components
 tags: 
- - Vue2
- - Vue3
  - components
 sidebar: 'auto'
 comment: false
@@ -24,14 +20,14 @@ comment: false
 
 ### 下载安装
 
-```js
+```npm
 1、安装jspdf: npm install jspdf --save
 2、安装html2Canvas: npm install --save html2canvas
 ```
 
 ### 页面使用
 
-```js
+```javascript
 import jsPDF from 'jspdf'
 import html2canvas from 'html2canvas'
 

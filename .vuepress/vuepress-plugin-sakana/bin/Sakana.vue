@@ -20,7 +20,6 @@ export default {
       await this.loadJs(src);
       this.initSakana();
     },
-
     loadJs(src) {
       return new Promise((resolve, reject) => {
         let script = document.createElement("script");
@@ -31,7 +30,6 @@ export default {
         script.onerror = () => reject();
       });
     },
-
     initSakana() {
       window.sakana = this.sakana = Sakana.init({
         // 选项: 默认值

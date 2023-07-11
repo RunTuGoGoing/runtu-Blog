@@ -33,8 +33,6 @@ features:
 <style>
 .anchor-down {
   display: block;
-  margin: 12rem auto 0;
-  bottom: 45px;
   width: 20px;
   height: 20px;
   font-size: 34px;
@@ -43,7 +41,7 @@ features:
   position: absolute;
   left: 50%;
   bottom: 30%;
-  margin-left: -10px;
+  margin: 12rem auto 0 -10px;
   cursor: pointer;
 }
 @-webkit-keyframes bounce-in{
@@ -51,7 +49,7 @@ features:
   20%{transform:translateY(0)}
   50%{transform:translateY(-20px)}
   80%{transform:translateY(0)}
-  to{transform:translateY(0)}
+  100%{transform: translateY(0)}
 }
 .anchor-down::before {
     content: "";
@@ -76,7 +74,60 @@ features:
   opacity: 0.4;
 } */
 body{
-  background-image: url('assets/image/bgGif.gif');
+  /*background-image: url('assets/image/bgGif.gif');*/
+}
+.info-wrapper{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3) !important;
+    background-image: url('assets/image/bgGif.gif') !important;
+}
+.abstract-item{
+    padding: 30px 20px !important;
+    /*border-radius: 2rem !important;*/
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3) !important;
+    background-image: url('assets/image/bgGif.gif') !important;
+}
+
+.info-wrapper:hover{
+  transform: scale(1.01);
+}
+
+.abstract-item:hover{
+  transform: scale(1.01);
+}
+.abstract-item::before, .abstract-item::after {
+  box-sizing: inherit;
+  position: absolute;
+  content: '';
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.abstract-item::after {
+  bottom: 0;
+  right: 0;
+}
+.abstract-item::before {
+  top: 0;
+  left: 0;
+}
+.abstract-item:hover::before, .abstract-item:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.abstract-item:hover::before {
+  border-top-color: #697d9d;
+  border-right-color: #697d9d;
+  transition: width 0.3s ease-out, height 0.3s ease-out 0.3s;
+}
+.abstract-item:hover::after {
+  border-bottom-color: #697d9d;
+  border-left-color: #697d9d;
+  transition: width 0.3s ease-out, height 0.3s ease-out 0.3s;
+}
+
+.reco-sticky{
+    top: 1px !important;
+    right: 1px !important;
 }
 </style>
 
@@ -90,11 +141,11 @@ export default {
     a.className = 'anchor-down';
     document.getElementsByClassName('hero')[0].append(a);
     let targetA = document.getElementById("JanchorDown");
-    targetA.addEventListener('click', e => { // 添加点击事件
+    targetA.addEventListener('click', e => { 
+      // 添加点击事件
       this.scrollFn();
     })
   },
-
   methods: {
     scrollFn() {
       const windowH = document.getElementsByClassName('hero')[0].clientHeight; // 获取窗口高度
