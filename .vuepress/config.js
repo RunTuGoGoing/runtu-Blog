@@ -245,7 +245,7 @@ module.exports = {
           },
           {
             type: "text",
-            content: "dialog函数式调用组件",
+            content: "钉钉扫码免登",
             style: "text-align: center;",
           },
           {
