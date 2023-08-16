@@ -236,7 +236,7 @@ module.exports = {
     [
       "@vuepress-reco/vuepress-plugin-bulletin-popover",
       {
-        title: "更新时间--2023-07-03",
+        title: "更新时间--2023-08-16",
         body: [
           {
             type: 'title',
@@ -245,7 +245,7 @@ module.exports = {
           },
           {
             type: "text",
-            content: "钉钉扫码免登",
+            content: "钉钉小程序免登",
             style: "text-align: center;",
           },
           {
