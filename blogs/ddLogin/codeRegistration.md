@@ -1,17 +1,20 @@
 ---
 title: 钉钉扫码免登
-date: 2023-07-21
+date: 2023-08-16
 categories: 
- - Vue2
+ - ddLogin
 tags: 
- - Vue2
+ - ddLogin
 sidebar: 'auto'
 comment: false
 ---
 
-## 实现登录第三方网站
+## 钉钉第三方扫码免登
 
-官网地址：https://open.dingtalk.com/document/orgapp/tutorial-obtaining-user-personal-informatio
+::: tip
+实现登录第三方网站（最新版）<br />
+[实现登录第三方网站官网地址](https://open.dingtalk.com/document/orgapp/tutorial-obtaining-user-personal-informatio)
+:::
 
 ### 内嵌二维码方式登录授权
 
@@ -23,7 +26,7 @@ comment: false
 
 #### 需要展示二维码页面
 
-```html
+```javascript
 <div id="login_container" style="transform: scale(1); background: #ffffff"></div>
 // id必写，style是为了调整二维码大小，二维码官方固定尺寸，只能通过缩放改变
 ```
@@ -32,7 +35,6 @@ comment: false
 
 ```javascript
 ddLoginInit() {
- 
        // 扫码后页面重定向地址
        let url = encodeURIComponent("");
  
@@ -68,12 +70,14 @@ ddLoginInit() {
 }
 ```
 
-### 重定向地址需要联系管理员配置
+#### 重定向地址需要联系管理员配置
 
-<img src='../../assets/image/vue2/ddLogin.png' alt='' style='display: block; margin: 0 auto'><br>
+<img src='../../assets/image/ddLogin/dd_img1.png' alt="" style='display: block;margin: 0 auto' />
 
-### 扫码
+#### 扫码
 
-1. 点击同意后，触发请求步骤四设置的第三方网站的回调域名，钉钉在url返回authCode。
-   <img src='../../assets/image/vue2/ddLogin2.png' alt='' style='display: block; margin: 0 auto'><br>
-2. 根据authCode，调用服务端获取用户token接口，获取用户个人token。
+- 点击同意后，触发请求步骤四设置的第三方网站的回调域名，钉钉在url返回authCode。
+
+<img src='../../assets/image/ddLogin/dd_img2.png' alt="" style='display: block;margin: 0 auto' />
+
+- 根据authCode，调用服务端获取用户token接口，获取用户个人token。
