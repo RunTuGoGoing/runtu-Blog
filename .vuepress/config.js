@@ -245,7 +245,7 @@ module.exports = {
           },
           {
             type: "text",
-            content: "钉钉小程序免登",
+            content: "3D饼图绘制",
             style: "text-align: center;",
           },
           {
